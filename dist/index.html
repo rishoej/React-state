@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Starter App</title>
+  </head>
+  <body>
+    <div id="campaign"></div>tets
+  <script src="index_bundle.js?ef863333e87a5debd1f3"></script></body>
+  <script>
+  var testObject = { 'one': 1, 'two': 2, 'three': 3 };
+
+  // Put the object into storage
+  localStorage.setItem('testObject', JSON.stringify(testObject));
+
+  // Retrieve the object from storage
+  var retrievedObject = localStorage.getItem('testObject');
+
+  console.log('retrievedObject: ', JSON.parse(retrievedObject));
+  </script>
+</html>
